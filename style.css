@@ -97,28 +97,34 @@ h2 {
 }
 
 #page3 {
+  position: relative;
   margin: 30px 30px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 350px;
   height: 500px;
-  padding: 25px 25px 0;
+  padding: 25px;
   background-color: black;
 }
 
-#page3 h2 {
-  font-size: 1.2rem;
-  color: #d0973f;
-  width: 200px;
-  line-height: 2.5rem;
+#page3 #playCircle {
+  fill: white;
+  stroke: none;
 }
 
 #lecture {
   position: absolute;
+  bottom: 10px;
+  left: 25px;
+  font-size: 1.2rem;
+  color: #d0973f;
+  width: 150px;
+  line-height: 2.5rem;
 }
 
-stroke-width .readMore {
+.readMore {
   text-decoration: none;
   color: #d0973f;
   margin-left: 30px;
@@ -126,12 +132,8 @@ stroke-width .readMore {
   letter-spacing: 0.2rem;
 }
 
-stroke-width .readMore:hover {
+.readMore:hover {
   color: #445569;
-}
-
-#playCircle {
-  fill: white;
 }
 
 @media (min-width: 1180px) {
